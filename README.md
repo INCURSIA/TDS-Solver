@@ -46,14 +46,14 @@ Real-Time Answer Generation: Returns answers that can be directly input into the
 Clone the repository:
 ```bash
 git clone https://github.com/INCURSIA/TDS-Solver.git
-Install dependencies:
+#Install dependencies:
 
-Ensure Python 3.9+ is installed.
+#Ensure Python 3.9+ is installed.
 
-Create a virtual environment:
+#Create a virtual environment:
 
 python3 -m venv venv
-Install required packages:
+#Install required packages:
 
 
 pip install -r requirements.txt
