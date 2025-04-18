@@ -1,15 +1,10 @@
- TDS Project One – Graded Assignment Solver
+# TDS Project One – Graded Assignment Solver
 This project is a function-call based application designed to automate the process of solving 54 graded assignment questions from the Tools in Data Science course by IIT Madras Online Degree.
 
 The application provides an API endpoint that takes a question and optional file attachments (such as zipped files) as input, and returns the answer in the required format, which can be directly submitted in the assignments.
 
 📂 Project Overview
 The TDS Project One app is built using FastAPI, hosted on Azure, and is integrated with GitHub Actions for continuous deployment. It leverages function calling mechanisms to map questions to predefined answers, streamlining the solution process.
-
-🚀 Live Demo
-API Endpoint: https://your-app.azurewebsites.net/api/
-
-GitHub Repository: Your GitHub Repo
 
 🧰 Technologies Used
 
