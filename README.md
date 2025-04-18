@@ -44,7 +44,7 @@ Real-Time Answer Generation: Returns answers that can be directly input into the
 
 ## Setup and Installation
 Clone the repository:
-
+```bash
 git clone https://github.com/INCURSIA/TDS-Solver.git
 Install dependencies:
 
@@ -57,9 +57,9 @@ Install required packages:
 
 
 pip install -r requirements.txt
-Run the app locally:
-
+#Run the app locally:
 uvicorn app.main:app --reload
+```
 Access the API:
 
 The API will be accessible at http://127.0.0.1:8000/api/ on your local machine.
