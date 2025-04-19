@@ -8,12 +8,12 @@ def handle_vercel_deploy(file_path):
         json_data = json.load(file)
 
     # Send the JSON data to the Vercel API for storage
-    upload_url = "vercel_url"
+    upload_url = "https://question3.vercel.app"
     upload_response = requests.post(upload_url, files={"file": open(file_path, "rb")})
 
     if upload_response.status_code == 200:
         print("✅ File uploaded successfully!")
-        url = "vercel_url"
+        url = "https://question3.vercel.app"
         return url
     else:
         print(f"❌ Upload Error: {upload_response.status_code}, {upload_response.text}")
