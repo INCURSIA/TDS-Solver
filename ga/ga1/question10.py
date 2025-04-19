@@ -16,7 +16,7 @@ def main(file_path):
 
     # The data here is already a Python dictionary, which is what you want to send
     # Convert dictionary to JSON string when sending to Vercel (requests handles that automatically)
-    url = "vercel_url"  # Replace with your Vercel API URL
+    url = "https://question10-ten.vercel.app"
     headers = {'Content-Type': 'application/json'}
     response = requests.post(url, json=data, headers=headers)  # Use json=data to send as JSON
 
